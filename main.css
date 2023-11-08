@@ -37,7 +37,14 @@ body {
     
 
 }
-.box {
+.cards--overall {
+    display: flex;
+    margin-top: 10em;
+}
+.card--shadow {
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
+}
+.borders {
     border-top-width: 1px;
     border-top-color: var(--bg-black);
     border-top-style: solid;
@@ -49,17 +56,9 @@ body {
     letter-spacing: normal;
   }
 
-.icon--important {
+.icon--red {
     color: var(--important-red);
 }  
-
-.cards {
-    display: flex;
-    margin-top: 10em;
-}
-.card--shadow {
-    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
-}
 
 .container {
     width: 100px;
@@ -74,5 +73,5 @@ body {
     
 }
 .container--position {
-   margin-top: -4em;
+   margin-top: -5em;
 }
