@@ -4,54 +4,41 @@ body {
     background-size: cover;
     background-position: center;
 }
-.image {
-    
+
+.image {  
     width: 100%;
     object-fit: cover;
     border-radius: 100%;
     aspect-ratio: 1/1;
     object-position: center top;
-   
-    
-   
-
 }
 
+.cards--overall {
+    display: flex;
+    margin-top: 10em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .card {
     display: block;
     margin: auto;
     width: 300px;
-    
 }
+
 .card--white {
     background-color: white;
-    padding: 1em;
-    
+    padding: 1em;  
+}
 
-}
-.cards--overall {
-    display: flex;
-    margin-top: 10em;
-}
 .card--shadow {
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
 }
+
 .borders {
     border-top-width: 1px;
     border-top-color: black;
     border-top-style: solid;
 }
-.icon {
-    font-family: icomoon;
-    
-    line-height: 1;
-    letter-spacing: normal;
-  }
-
-.icon--red {
-    color: red;
-}  
 
 .container {
     width: 100px;
@@ -60,11 +47,22 @@ body {
     margin: auto;
    overflow: hidden;
 }
+
 .container--border {
     border: 2px white solid;
     box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.3);
-    
 }
+
 .container--position {
    margin-top: -5em;
 }
+
+.icon {
+    font-family: icomoon;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+.icon--red {
+    color: red;
+}  
