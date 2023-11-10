@@ -15,17 +15,20 @@ body {
 
 .cards--overall {
     text-align: center;
-    margin-top: 10em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    overflow-x: auto;
 }
 
 .card {
-    display: flex;
-    display: inline-block;
-    flex-direction: column;
-    margin-right: 20px;
     width: 300px;
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
+    box-shadow: 3px 3px 12px rgb(107, 107, 107);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    min-width: 260px;
 }
 
 .card--white {
